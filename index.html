@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="stylesheet" href="02-styles.css" />
+  <script defer src="03-script.js"></script>
+
+  <title>Frontend Mentor | Pod request access landing page</title>
+</head>
+
+<body>
+  <div class="pod-page">
+    <header>
+      <img class="pod-page__logo" src="images/04-podcasts-logos/logo.svg" alt="Pod logo" />
+    </header>
+
+    <main>
+      <section class="pod-page__intro">
+        <h1 class="pod-page__heading"><span class="pod-page__heading-highlight">Publish your podcasts</span> everywhere.
+        </h1>
+        <p class="pod-page__description">Upload your audio to Pod with a single click. We’ll then distribute your
+          podcast
+          to Spotify, Apple Podcasts, Google Podcasts, Pocket Casts and more!</p>
+      </section>
+
+      <section class="pod-page__top-platforms">
+        <a href="https://creators.spotify.com/" target="_blank"><img class="spotify"
+            src="images/04-podcasts-logos/spotify.svg" alt="Spotify logo" /></a>
+        <a href="https://podcasters.apple.com/" target="_blank"><img class="apple"
+            src="images/04-podcasts-logos/apple-podcast.svg" alt="Apple Podcast logo" /></a>
+        <a href="https://music.youtube.com/googlepodcastsmanager" target="__blank"><img class="google"
+            src="images/04-podcasts-logos/google-podcasts.svg" alt="Google Podcats logo" /></a>
+        <a href="https://play.pocketcasts.com/" target="__blank"><img class="pocket-casts"
+            src="images/04-podcasts-logos/pocket-casts.svg" alt="Pocket Casts logo" /></a>
+      </section>
+
+      <form class="pod-page__form">
+        <div class="pod-page__form-wrapper">
+          <label for="email">
+            <input class="pod-page__email" id="email" type="email" name="email" placeholder="Email address">
+          </label>
+          <button class="pod-page__button">Request Access</button>
+        </div>
+      </form>
+    </main>
+
+    <footer></footer>
+  </div>
+</body>
+
+</html>
